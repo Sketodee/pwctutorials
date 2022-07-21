@@ -64,9 +64,7 @@ const btn = document.querySelector('.btn')
 const userList = document.querySelector("#users")
 const msg = document.querySelector(".msg")
 
-btn.addEventListener('click', onSubmit)
-
-function onSubmit(e) {
+const onSubmit = (e) => {
     e.preventDefault()
     const myForm = document.getElementById('myForm')
     const firstName = document.querySelector('#firstName')
@@ -94,5 +92,9 @@ function onSubmit(e) {
         age.value = ""
     }
 }
+
+btn.addEventListener('click', onSubmit)
+
+
 
 
