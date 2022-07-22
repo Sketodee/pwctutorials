@@ -76,6 +76,7 @@ const onSubmit = (e) => {
     const tracks = document.querySelectorAll('input[name="track"]:checked')
     const trackSelected = []
 
+     console.log(tracks)   
     tracks.forEach((track) => trackSelected.push(track.value))
 
     if (firstName.value === "" && lastName.value === "" && age.value === "") {

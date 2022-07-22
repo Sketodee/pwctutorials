@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Raleway;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 5px;
+    background: #F4F4F4;
+    margin: 5px 0;
+}
+
+header, footer {
+    background: #F4F4F4;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+.container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+}
+
+#darkMode img {
+    width: 20px;
+}
+
+#myForm {
+    padding: 2rem;
+    background: #F4F4F4;
+}
+
+#myForm label {
+    display: block;
+}
+
+#myForm input[type="text"] , input[type="number"]  {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#myForm select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.btn:hover {
+    background: #444;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.error {
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+
+.darkMode {
+    background: black;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #f4f4f4;
+    padding: 5px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #F4F4F4;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .gallery {
+    margin: auto;
+    width: 1000px;
+    overflow: auto;
+    padding: 3rem 2rem;
+}
+
